@@ -1,0 +1,44 @@
+{
+  "name": "ico-project-page",
+  "version": "1.0.0",
+  "description": "A page to demonstrate nuxt JS when in use with an ICO website",
+  "author": "Liam Read",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "@nuxtjs/bulma": "^1.0.3",
+    "@nuxtjs/font-awesome": "^1.0.2",
+    "axios": "^0.16.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "node-sass": "^4.5.3",
+    "nuxt": "^1.0.0-rc11",
+    "os": "^0.1.1",
+    "ramda": "^0.25.0",
+    "request-promise": "^4.2.2",
+    "sass-loader": "^6.0.6",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3",
+    "vuex": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "bootstrap-vue": "^1.0.0-beta.9",
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
