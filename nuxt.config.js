@@ -3,24 +3,26 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'ico-project-page',
+    title: 'PUBG Schedule',
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
       {
         hid: 'description',
         name: 'description',
-        content: 'A page to demonstrate nuxt JS when in use with an ICO website'
+        content: 'PUBG Schedule - Playerunknowns Battlegrounds tournament scheduling information, live streams and player information'
       }
     ],
     link: [
-      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
+      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
+      {rel: 'stylesheet', href: '//fonts.googleapis.com/icon?family=Material+Icons'}
     ]
   },
   /*
   ** Customize the progress bar color
   */
   loading: {color: '#3B8070'},
+  plugins: ['~plugins/buefy'],
   /*
   ** Build configuration
   */

@@ -1,19 +1,16 @@
 <template>
-  <section>
+  <section class="index">
     <page-header/>
     <page-top-info></page-top-info>
-    <logo-box></logo-box>
   </section>
 </template>
 
 <script>
   import PageHeader from '../components/PageHeader.vue'
   import PageTopInfo from '../components/PageTopInfo.vue'
-  import LogoBox from '../components/LogoBox.vue'
 
   export default {
     components: {
-      LogoBox,
       PageHeader,
       PageTopInfo
     },
@@ -24,5 +21,8 @@
 </script>
 
 <style lang="scss" scoped>
-
+  .index {
+    background-color: #dbdbdb;
+    min-height: 1080px;
+  }
 </style>
