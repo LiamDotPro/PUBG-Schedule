@@ -1,5 +1,7 @@
 # ico-project-page
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/LiamDotPro/PUBG-Schedule.svg)](https://greenkeeper.io/)
+
 > A page to demonstrate nuxt JS when in use with an ICO website
 
 ## Build Setup
